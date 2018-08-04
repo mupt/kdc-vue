@@ -1,28 +1,55 @@
 <template>
   <div id="app">
-    <img src="./assets/juan_big.jpg">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header>
+      <picture class="hero">
+        <source srcset="./assets/juan_small.jpg" media="(max-width: 30em)">
+        <source srcset="./assets/juan_medium.jpg" media="(max-width: 60em)">
+        <img class="hero__image" src="./assets/juan_big.jpg" alt="juan_2017">
+      </picture>
+    </header>
+    <LinkList/>
   </div>
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LinkList from './components/LinkList.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    LinkList
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style lang="scss">
+/* Colors */
+$black: #000000;
+$pink: #ff69b4;
+$green: #99d4b8;
+
+/* Site Defaults */
+$site-background: $black;
+
+
+/* Animations */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
+
+body {
+  background-color: $site-background;
+  margin: 0;
+  animation: fadein 300ms;
+}
+
+/* Hero - Component */
+
+.hero {}
+
+  .hero__image {
+    width: 100%;
+  }
+
+
 </style>

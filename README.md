@@ -1,5 +1,9 @@
 # vue-kcd.com
 
+#Bio Site for Kid Clamp Down
+
+Vue Cli, Vue, Router, Axios
+
 ## Project setup
 ```
 npm install

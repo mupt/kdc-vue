@@ -2,7 +2,7 @@
   <div class="nav">
     <ol class="nav__list">
       <li class="nav__list-item" v-for="link in links" :key="link.id.$t">
-        <a class="nav__link" :href="link.gsx$linkurl.$t"> {{ link.gsx$linkname.$t }} </a>
+        <a class="nav__link" target="_blank" :href="link.gsx$linkurl.$t"> {{ link.gsx$linkname.$t }} </a>
       </li>
     </ol>
   </div>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'LinkList',
   props: {
     msg: String
   },

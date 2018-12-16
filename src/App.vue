@@ -81,8 +81,6 @@ body {
   left: 30%;
   height: 500px;
   width: 500px; 
-  animation:spin 4s linear infinite;
 }
-
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 </style>
+

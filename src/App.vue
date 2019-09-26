@@ -1,21 +1,19 @@
 <template>
   <div id="app">
     <header class="container">
-      <a href="#" v-on:click.stop="revealEgg">
-        <picture class="hero">
-          <source srcset="./assets/juan_small.jpg" media="(max-width: 30em)">
-          <source srcset="./assets/juan_medium.jpg" media="(max-width: 60em)">
-          <img class="hero__image" src="./assets/juan_big.jpg" alt="juan_2017">
-        </picture>
-      </a>
-      <div v-if="showEgg" v-on:click.stop="hideEgg" class="egg"> </div>
+      <div class="container__column">
+        <video class="video" controls src="./assets/videos/dw_scrapbook.mp4"> </video>
+      </div>
+      <div class="container__column">
+        <LinkList/>
+      </div>
     </header>
-    <LinkList/>
   </div>
 </template>
 <script>
-import LinkList from './components/LinkList.vue'
 
+
+import LinkList from './components/LinkList.vue'
 export default {
   name: 'app',
   data: function () {
@@ -35,9 +33,12 @@ export default {
     LinkList
   }
 }
+
+
 </script>
 
 <style lang="scss">
+
 /* Colors */
 $black: #000000;
 $pink: #ff69b4;
@@ -61,26 +62,29 @@ body {
 
 /* Hero - Component */
 
-.hero {}
+.container {
+  display: flex;
+}
 
-  .hero__image {
-    width: 100%;
+  .container__column {
+    flex-grow: 1;
   }
 
-.container { 
-  position: relative; 
+.video {
+  height: 100vh;
+  width: 100%;
 }
 
 .hide { display: none; }
 
-.egg { 
+.egg {
   background-image: url('./assets/jarod.jpg');
-  background-size: cover; 
+  background-size: cover;
   position: absolute;
   top: 0%;
   left: 30%;
   height: 500px;
-  width: 500px; 
+  width: 500px;
 }
 </style>
 

@@ -2,7 +2,7 @@
   <div id="app">
     <header class="container">
       <div class="container__column">
-        <video class="video" controls src="./assets/videos/dw_scrapbook.mp4"> </video>
+        <Video/>
       </div>
       <div class="container__column">
         <LinkList/>
@@ -14,6 +14,8 @@
 
 
 import LinkList from './components/LinkList.vue'
+import Video from './components/Video.vue'
+
 export default {
   name: 'app',
   data: function () {
@@ -30,7 +32,8 @@ export default {
     }
   },
   components: {
-    LinkList
+    LinkList,
+    Video
   }
 }
 
@@ -69,11 +72,6 @@ body {
   .container__column {
     flex-grow: 1;
   }
-
-.video {
-  height: 100vh;
-  width: 100%;
-}
 
 .hide { display: none; }
 

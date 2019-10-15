@@ -1,4 +1,4 @@
-# vue-kcd.com
+# kidclampdown.com
 
 ## Bio Site for Kid Clamp Down
 

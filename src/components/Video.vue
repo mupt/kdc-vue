@@ -23,8 +23,9 @@
 <style scoped lang="scss">
 
 .video {
-  height: 100vh;
-  width: 100%;
+  height: 95vh;
+
+  width: 90%;
 }
 
 </style>

@@ -1,20 +1,26 @@
 <template>
   <div id="app">
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "website",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://kidclampdown.com"
+      },
+      "name": "Kid Clampdown"
+    }
+    </script>
+
     <header class="container">
-      <a href="#" v-on:click.stop="revealEgg">
-        <picture class="hero">
-          <source srcset="./assets/juan_small.jpg" media="(max-width: 30em)">
-          <source srcset="./assets/juan_medium.jpg" media="(max-width: 60em)">
-          <img class="hero__image" src="./assets/juan_big.jpg" alt="juan_2017">
-        </picture>
-      </a>
-      <div v-if="showEgg" v-on:click.stop="hideEgg" class="egg"> </div>
     </header>
-    <LinkList/>
+    <router-link to="/"> Home </router-link>
+    <router-link to="/cv"> CV </router-link>
+    <router-view></router-view>
   </div>
 </template>
 <script>
-import LinkList from './components/LinkList.vue'
+//import LinkList from './components/LinkList.vue'
 
 export default {
   name: 'app',
@@ -32,7 +38,7 @@ export default {
     }
   },
   components: {
-    LinkList
+    //LinkList
   }
 }
 </script>
@@ -67,20 +73,20 @@ body {
     width: 100%;
   }
 
-.container { 
-  position: relative; 
+.container {
+  position: relative;
 }
 
 .hide { display: none; }
 
-.egg { 
+.egg {
   background-image: url('./assets/jarod.jpg');
-  background-size: cover; 
+  background-size: cover;
   position: absolute;
   top: 0%;
   left: 30%;
   height: 500px;
-  width: 500px; 
+  width: 500px;
   animation:spin 4s linear infinite;
 }
 

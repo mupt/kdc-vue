@@ -9,12 +9,12 @@
       <ol class="cv__list">
         <li>
           <div itemscope itemtype="https://schema.org/EducationalOrganization">
-            <p> Master of Fine Arts, 2012 <span itemprop="name"> The Center for Cartoon Studies </span> 2012 </p>
+            <p> Master of Fine Arts / <span itemprop="name"> The Center for Cartoon Studies </span> 2012 </p>
           </div>
         </li>
         <li>
           <div itemscope itemtype="https://schema.org/EducationalOrganization">
-            <p> Bachelor of Arts, English Literature <span itemprop="name"> Temple University </span> 2005 </p>
+            <p> Bachelor of Arts, English Literature / <span itemprop="name"> Temple University </span> 2005 </p>
           </div>
         </li>
       </ol>
@@ -24,43 +24,43 @@
       <h2 class="cv__header"> Print </h2>
       <ol class="cv__list">
         <li>
-          Now #5, 2018, Fantagraphics Books. Contributor to comics anthology magazine.
+          <i>Now #5, 2018</i>, Fantagraphics Books. Contributor to comics anthology magazine.
         </li>
         <li>
-          Taglianuccis Number One, 2018. Collection of comics and drawings made in collaboration with Jai Granofsky.
+          <i>Taglianuccis Number One</i>, 2018. Collection of comics and drawings made in collaboration with Jai Granofsky.
         </li>
         <li>
-          The Lifted Brown #39, 2018, TLB Society Inc. Contributor to quarterly literary and arts journal.
+          <i>The Lifted Brown</i> #39, 2018, TLB Society Inc. Contributor to quarterly literary and arts journal.
         </li>
         <li>
-          Mountebank: A Psychedoolic Sketchbook, 2017, Fantagraphics Books. Creator of 112-page comics and psychedoolia sketchbook facsimile.
+          <i>Mountebank: A Psychedoolic Sketchbook</i>, 2017, Fantagraphics Books. Creator of 112-page comics and psychedoolia sketchbook facsimile.
         </li>
         <li>
-          Best American Comics 2017, Houghton Mifflin Harcourt. Excerpt from Mountebank listed as a Notable Comic.
+          <i>Best American Comics 2017</i>, Houghton Mifflin Harcourt. Excerpt from Mountebank listed as a Notable Comic.
         </li>
         <li>
-          The Lifted Brown #33, 2017, TLB Society Inc. Contributor to quarterly literary and arts journal.
+          <i>The Lifted Brown #33</i>, 2017, TLB Society Inc. Contributor to quarterly literary and arts journal.
         </li>
         <li>
-          Best American Comics 2016, Houghton Mifflin Harcourt. Excerpt from Mountebank listed as a Notable Comic.
+          <i>Best American Comics 2016</i>, Houghton Mifflin Harcourt Excerpt from Mountebank listed as a Notable Comic.
         </li>
         <li>
-          Flashed: Sudden Stories In Comics and Prose, Pressgang, 2016. Contributor to anthology of linked flash fiction in comics and prose.
+          <i>Flashed: Sudden Stories In Comics and Prose</i>, Pressgang, 2016. Contributor to anthology of linked flash fiction in comics and prose.
         </li>
         <li>
-          Samandal 13, Samandal, 2012. Contributor to the premier comics anthology of the Mideast.
+          <i>Samandal 13</i>, Samandal, 2012. Contributor to the premier comics anthology of the Mideast.
         </li>
         <li>
-          Irene, edited and published by Dakota McFadzean, Andy Warner and d.w, 2012 to 2015. Founding co-editor, publisher and contributor to international comics and art anthology.
+          <i>Irene</i>, edited and published by Dakota McFadzean, Andy Warner and d.w, 2012 to 2015. Founding co-editor, publisher and contributor to international comics and art anthology.
         </li>
         <li>
-          KJC, 2013 to present. Co-creator (with Kevin Uehlein) of self-published minicomics.
+          <i>KJC</i>, 2013 to present. Co-creator (with Kevin Uehlein) of self-published minicomics.
         </li>
         <li>
-          Stuff to Look At, 2012 to present. Co-creator (with Mark Connery) of self-published minicomics.
+          <i>Stuff to Look At</i>, 2012 to present. Co-creator (with Mark Connery) of self-published minicomics.
         </li>
         <li>
-          Kid Clampdown, 2011 to present. Creator of self-published minicomics.
+          <i>Kid Clampdown</i>, 2011 to present. Creator of self-published minicomics.
         </li>
       </ol>
     </section>
@@ -69,10 +69,10 @@
       <h2 class="cv__header"> Gallery </h2>
       <ol class="cv__list">
         <li>
-          Crank, Southern Exposure, San Francisco, 2015. 18x24” drawing They Got to Catch Me If They Want Me to Hang was included in this juried exhibition.
+          <i>Crank</i>, Southern Exposure, San Francisco, 2015. 18x24” drawing <i>They Got to Catch Me If They Want Me to Hang</i> was included in this juried exhibition.
         </li>
         <li>
-          Irene Anthology Exhibit, The Center for Cartoon Studies, White River Junction, Vermont, 2017. Curated and contributed to this gallery show commemorating the Irene anthology.
+          <i>Irene Anthology Exhibit</i>, The Center for Cartoon Studies, White River Junction, Vermont, 2017. Curated and contributed to this gallery show commemorating the <i>Irene</i> anthology.
         </li>
       </ol>
     </section>
@@ -81,7 +81,7 @@
       <h2 class="cv__header"> Design </h2>
       <ol class="cv__list">
         <li>
-          Bidet Dreaming by Sea Moss, Crash Symbols and Feeding Tube Records, 2019. Cover and label design for 12” vinyl record.
+          <i>Bidet Dreaming</i> by Sea Moss, Crash Symbols and Feeding Tube Records, 2019. Cover and label design for 12” vinyl record.
         </li>
         <li>
           Sea Moss t-shirts, 2018 and 2019.
@@ -93,10 +93,10 @@
       <h2 class="cv__header"> Criticism </h2>
       <ol class="cv__list">
         <li>
-          Iceland by Yuichi Yokoyama, The 2018, tcj.com/reviews/iceland. Critical analysis of graphic novella.
+          <i>Iceland</i> by Yuichi Yokoyama, The 2018, tcj.com/reviews/iceland. Critical analysis of graphic novella.
         </li>
         <li>
-          The Best Comics of 2018, 2019, tcj.com/the-best-comics-of-2018/. Contributor to critical roundup of best comics of 2018.
+          <i>The Best Comics of 2018</i>, 2019, tcj.com/the-best-comics-of-2018/. Contributor to critical roundup of best comics of 2018.
         </li>
       </ol>
     </section>
@@ -113,39 +113,74 @@ export default {
 
 <style scoped lang="scss">
 
+/* Helpers */
+@mixin respond-to($breakpoint) {
+    @media screen and (min-width: $breakpoint), print {
+        @content;
+    }
+}
+
+/* Breakpoints */
+$lg: 1027px;
+
+/* Variables */
+$spacing-unit: 8px;
+
+/* Resets */
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* CV */
 .cv {
   color: #FFFFFF;
   font-family: Sans-Serif;
 }
   .cv__title {
-    margin-left: 16px;
+    margin-left: $spacing-unit;
   }
 
   .cv__section {
     display: flex;
-    padding: 16px;
+    padding: $spacing-unit;
   }
 
     .cv__header {
-      padding: 0 16px 16px 16px;
+      font-size: 0.9em;
+      padding: 0 $spacing-unit $spacing-unit $spacing-unit;
       margin-top: 0;
-      min-width: 10%;
+      min-width: 80px;
     }
 
     .cv__list {
+      font-size: 0.8em;
       margin: 0;
       padding-top: 0;
+      padding-left: $spacing-unit;
       border-left: 1px solid #FFFFFF;
       list-style: none;
     }
 
-    .cv__list > li:not(:first-child) {
-      padding: 8px 0;
+    .cv__list > li {
+      margin: $spacing-unit / 2 0;
     }
 
+    .cv__list > li:first-child {
+      margin-top: 0;
+    }
 
-p {
-  margin: 0;
-  padding: 0;
-}
+    @include respond-to($lg) {
+      .cv__header {
+        min-width: 140px;
+      }
+
+      .cv__list {
+        padding-left: ($spacing-unit * 2);
+      }
+
+      .cv__list > li {
+        margin: ($spacing-unit * 1.5) 0;
+      }
+    }
 </style>

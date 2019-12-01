@@ -12,15 +12,15 @@
     }
     </script>
 
-    <header class="container">
-    </header>
-    <router-link to="/"> Home </router-link>
-    <router-link to="/cv"> CV </router-link>
+    <!--
+      <router-link to="/"> Home </router-link>
+      <router-link to="/cv"> CV </router-link>
+    -->
+
     <router-view></router-view>
   </div>
 </template>
 <script>
-//import LinkList from './components/LinkList.vue'
 
 export default {
   name: 'app',
@@ -79,16 +79,4 @@ body {
 
 .hide { display: none; }
 
-.egg {
-  background-image: url('./assets/jarod.jpg');
-  background-size: cover;
-  position: absolute;
-  top: 0%;
-  left: 30%;
-  height: 500px;
-  width: 500px;
-  animation:spin 4s linear infinite;
-}
-
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 </style>

@@ -24,22 +24,6 @@
 
 export default {
   name: 'app',
-  data: function () {
-    return {
-      showEgg: false
-    }
-  },
-  methods: {
-    revealEgg: function () {
-      this.showEgg = true
-    },
-    hideEgg: function () {
-      this.showEgg = false
-    }
-  },
-  components: {
-    //LinkList
-  }
 }
 </script>
 
@@ -52,31 +36,8 @@ $green: #99d4b8;
 /* Site Defaults */
 $site-background: $black;
 
-
-/* Animations */
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
 body {
   background-color: $site-background;
   margin: 0;
-  animation: fadein 300ms;
 }
-
-/* Hero - Component */
-
-.hero {}
-
-  .hero__image {
-    width: 100%;
-  }
-
-.container {
-  position: relative;
-}
-
-.hide { display: none; }
-
 </style>

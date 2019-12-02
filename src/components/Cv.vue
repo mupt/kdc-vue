@@ -1,7 +1,9 @@
 <template>
   <div class="cv">
     <section class="cv__header" itemscope itemtype="http://schema.org/Person">
-      <h1 class="cv__title" itemprop="name"> dw </h1>
+      <router-link to="/" style="color: white;">
+        <h1 class="cv__title" itemprop="name"> dw </h1>
+      </router-link>
     </section>
 
     <section class="cv__section">

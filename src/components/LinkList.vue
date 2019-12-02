@@ -9,6 +9,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
   name: 'LinkList',
   props: {
@@ -50,12 +52,6 @@ $font-size: 1em;
 /* Links */
 $link-hover-color: $green;
 
-/* Animations */
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
 /* Helpers */
 @mixin respond-to($breakpoint) {
     @media screen and (min-width: $breakpoint), print {
@@ -66,6 +62,7 @@ $link-hover-color: $green;
 .nav {}
 
   .nav__list {
+    list-style: none;
     padding: 0;
     margin: $spacing-unit 0 0 $spacing-unit * 2;
     text-decoration: none;
@@ -107,6 +104,4 @@ $link-hover-color: $green;
           }
         }
       }
-
-
 </style>

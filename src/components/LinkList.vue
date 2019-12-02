@@ -2,7 +2,8 @@
   <div class="nav">
     <ol class="nav__list">
       <li class="nav__list-item" v-for="link in links" :key="link.id.$t">
-        <a class="nav__link" target="_blank" :href="link.gsx$linkurl.$t"> {{ link.gsx$linkname.$t }} </a>
+        <a v-if="link.gsx$newtab.$t === 'false'" class="nav__link" target="_blank" :href="link.gsx$linkurl.$t"> {{ link.gsx$linkname.$t }} </a>
+        <a v-else class="nav__link" :href="link.gsx$linkurl.$t"> {{ link.gsx$linkname.$t }} </a>
       </li>
     </ol>
   </div>

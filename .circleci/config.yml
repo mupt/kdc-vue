@@ -4,8 +4,14 @@ jobs:
       docker:
         - image: circleci/node:8.11.2
       steps:
+        - checkout
         - run:
             name: First Step
             command: |
               echo 'Hello World!'
               echo 'This is a delivery pipeline'
+        - run:
+            name: Code has arrived
+              command: |
+                echo 'ls -al
+

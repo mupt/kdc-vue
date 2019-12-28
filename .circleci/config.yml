@@ -15,7 +15,7 @@ jobs:
             command: 'npm install'
         - run:
             name: Lint Application
-            name: 'npm run lint'
+            command: 'npm run lint'
         - run:
             name: Build App
             command: 'npm run build'

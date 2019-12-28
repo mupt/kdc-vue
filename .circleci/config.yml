@@ -30,4 +30,4 @@ jobs:
             from: dist
             to: 's3://kidclampdown.com'
             arguments: |
-              -- recursive
+              --recursive

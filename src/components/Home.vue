@@ -1,6 +1,6 @@
 <template>
   <div class="container" style="color:white;">
-    <div class="container__col">
+    <div class="container__col xyz">
       <img class="container__img" src="../assets/jarod.jpg">
     </div>
       <div class="container__col">

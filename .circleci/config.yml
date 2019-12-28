@@ -29,4 +29,3 @@ jobs:
         - aws-s3/copy:
             from: dist
             to: 's3://kidclampdown.com'
-            arguments: '--dryrun'

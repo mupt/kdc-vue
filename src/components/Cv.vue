@@ -41,7 +41,7 @@
           <i>Best American Comics 2017</i>, Houghton Mifflin Harcourt. Excerpt from <i>Mountebank</i> listed as a Notable Comic.
         </li>
         <li>
-          <i>The Lifted Brown #33</i>, 2017, TLB Society Inc. Contributor to quarterly literary and arts journal.
+          <i>The Lifted Brow #33</i>, 2017, TLB Society Inc. Contributor to quarterly literary and arts journal.
         </li>
         <li>
           <i>Best American Comics 2016</i>, Houghton Mifflin Harcourt Excerpt from <i>Mountebank</i> listed as a Notable Comic.

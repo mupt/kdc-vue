@@ -6,13 +6,9 @@ jobs:
       steps:
         - checkout
         - run:
-            name: First Step
-            command: |
-              echo 'Hello World!'
-              echo 'This is a delivery pipeline'
+            name: Update
+            command: 'sudo npm install -g npm@latest'
         - run:
-            name: Code has arrived
-            command: |
-              ls -al
-              echo 'look familiar'
+            name: Build App
+            command: 'sudo npm run build'
 

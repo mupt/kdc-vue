@@ -10,5 +10,5 @@ jobs:
             command: 'sudo npm install -g npm@latest'
         - run:
             name: Build App
-            command: 'sudo npm run build'
+            command: 'npm run build'
 

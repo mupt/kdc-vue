@@ -11,12 +11,12 @@
       <ol class="cv__list">
         <li>
           <div itemscope itemtype="https://schema.org/EducationalOrganization">
-            <p> Master of Fine Arts / <span itemprop="name"> The Center for Cartoon Studies </span> 2012 </p>
+            <p> Master of Fine Arts / <span itemprop="name"> The Center for Cartoon Studies, </span> 2012 </p>
           </div>
         </li>
         <li>
           <div itemscope itemtype="https://schema.org/EducationalOrganization">
-            <p> Bachelor of Arts, English Literature / <span itemprop="name"> Temple University </span> 2005 </p>
+            <p> Bachelor of Arts, English Literature / <span itemprop="name"> Temple University, </span> 2005 </p>
           </div>
         </li>
       </ol>
@@ -32,19 +32,19 @@
           <i>Taglianuccis Number One</i>, 2018. Collection of comics and drawings made in collaboration with Jai Granofsky.
         </li>
         <li>
-          <i>The Lifted Brown</i> #39, 2018, TLB Society Inc. Contributor to quarterly literary and arts journal.
+          <i>The Lifted Brow</i> #39, 2018, TLB Society Inc. Contributor to quarterly literary and arts journal.
         </li>
         <li>
           <i>Mountebank: A Psychedoolic Sketchbook</i>, 2017, Fantagraphics Books. Creator of 112-page comics and psychedoolia sketchbook facsimile.
         </li>
         <li>
-          <i>Best American Comics 2017</i>, Houghton Mifflin Harcourt. Excerpt from Mountebank listed as a Notable Comic.
+          <i>Best American Comics 2017</i>, Houghton Mifflin Harcourt. Excerpt from <i>Mountebank</i> listed as a Notable Comic.
         </li>
         <li>
           <i>The Lifted Brown #33</i>, 2017, TLB Society Inc. Contributor to quarterly literary and arts journal.
         </li>
         <li>
-          <i>Best American Comics 2016</i>, Houghton Mifflin Harcourt Excerpt from Mountebank listed as a Notable Comic.
+          <i>Best American Comics 2016</i>, Houghton Mifflin Harcourt Excerpt from <i>Mountebank</i> listed as a Notable Comic.
         </li>
         <li>
           <i>Flashed: Sudden Stories In Comics and Prose</i>, Pressgang, 2016. Contributor to anthology of linked flash fiction in comics and prose.

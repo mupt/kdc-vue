@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test": "jest"
   },
   "dependencies": {
     "node-sass": "^4.9.2",
@@ -18,6 +19,7 @@
     "@vue/cli-plugin-eslint": "^3.0.0-rc.10",
     "@vue/cli-service": "^4.1.1",
     "axios": "^0.18.1",
+    "jest": "^24.9.0",
     "vue-cli-plugin-axios": "0.0.4",
     "vue-template-compiler": "^2.5.16"
   },

@@ -7,7 +7,7 @@ jobs:
         - checkout
         - run:
             name: Update and Install Packages
-            command: 'sudo npm install'
+            command: 'sudo npm install vue-cli'
         - run:
             name: Lint Application
             command: 'sudo npm run lint'

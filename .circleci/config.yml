@@ -9,6 +9,6 @@ jobs:
             name: Update
             command: 'sudo npm install -g npm@latest'
         - run:
-          name: Lint Application
-            command: 'npm run lint'
+            name: Lint Application
+            command: 'sudo npm run lint'
 

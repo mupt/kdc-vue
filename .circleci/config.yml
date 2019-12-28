@@ -7,7 +7,6 @@ jobs:
         - checkout
         - run:
             name: Update and Install Packages
-            command: 'sudo npm install -g npm@latest'
             command: 'sudo npm install'
         - run:
             name: Lint Application

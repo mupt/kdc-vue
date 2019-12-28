@@ -27,6 +27,6 @@ jobs:
               --cache-control "max-age=86400"
             overwrite: true
         - aws-s3/copy:
-            from: dist/*
+            from: dist
             to: 's3://kidclampdown.com'
             arguments: '--dryrun'

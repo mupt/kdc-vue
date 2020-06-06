@@ -4,8 +4,8 @@ orbs:
 jobs:
   build:
       docker:
-        - image: circleci/node:8.15.1
-      steps:
+        - image: circleci/node:12.18.0
+          steps:
         - checkout
         - run:
             name: Update NPM

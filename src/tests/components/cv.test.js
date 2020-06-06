@@ -1,5 +1,3 @@
-/*eslint-env es6*/
-
 const sum = (a, b) => {
   return a + b;
 }

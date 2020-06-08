@@ -29,7 +29,7 @@ export default {
 
 <style lang="scss">
 /* Colors */
-$black: #000000;
+$black: #FFFFFF;
 $pink: #ff69b4;
 $green: #99d4b8;
 

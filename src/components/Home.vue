@@ -1,11 +1,9 @@
 <template>
-  <div class="container" style="color:white;">
-    <div class="container__col">
-      <img class="container__img" src="../assets/jarod.jpg">
+  <div>
+    <div class="hero-container">
+      <img class="hero-container__img" src="../assets/jarod.jpg">
     </div>
-      <div class="container__col">
-      <LinkList/>
-    </div>
+    <LinkList/>
   </div>
 </template>
 
@@ -23,15 +21,18 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.container {
+.hero-container {
   display: flex;
+  justify-content: center;
 }
 
-  .container__col {
-    max-width: 50%;
-  }
+.hero-container__img {
+  width: 20%;
+}
 
-  .container__img {
-    width: 100%;
-  }
+.nav-container {
+  display: flex;
+  justify-content: center;
+}
+
 </style>

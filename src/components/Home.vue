@@ -28,8 +28,7 @@ export default {
 
 .hero-container__img {
   width: 80%;
-  max-width: 350px;
-  min-width: 200px;
+  max-height: 400px;
   position: relative;
 }
 

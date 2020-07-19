@@ -27,10 +27,11 @@ export default {
 }
 
 .hero-container__img {
-  width: 75%;
+  width: auto;
+  height: auto;
+  display: block;
   max-height: 450px;
   max-width: 250px;
-  position: relative;
 }
 
 .nav-container {

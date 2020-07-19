@@ -66,6 +66,7 @@ $link-hover-color: $black;
     list-style: none;
     text-decoration: none;
     padding: 0;
+    height: 40px;
   }
     .nav__list-item {
       margin: 0 $spacing-unit;

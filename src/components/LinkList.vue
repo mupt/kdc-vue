@@ -1,12 +1,12 @@
 <template>
-  <div class="nav">
+  <nav>
     <ol class="nav__list">
       <li class="nav__list-item" v-for="link in links" :key="link.id.$t">
         <a v-if="link.gsx$newtab.$t === 'false'" class="nav__link" target="_blank" :href="link.gsx$linkurl.$t"> {{ link.gsx$linkname.$t }} </a>
         <a v-else class="nav__link" :href="link.gsx$linkurl.$t"> {{ link.gsx$linkname.$t }} </a>
       </li>
     </ol>
-  </div>
+  </nav>
 </template>
 
 <script>
@@ -33,8 +33,6 @@ export default {
 <style scoped lang="scss">
 /* Colors */
 $black: #000000;
-$pink: #ff69b4;
-$green: #99d4b8;
 
 /* Breakpoints */
 $mid: 650px;
@@ -46,12 +44,12 @@ $spacing-unit: 16px;
 $site-background: $black;
 
 /* Font */
-$font-color: $pink;
-$font-family: 'Courier New';
-$font-size: 1em;
+$font-color: $black;
+$font-family: 'Roboto Condensed', sans-serif;
+$font-size: 1.2rem;
 
 /* Links */
-$link-hover-color: $green;
+$link-hover-color: $black;
 
 /* Helpers */
 @mixin respond-to($breakpoint) {
@@ -63,22 +61,16 @@ $link-hover-color: $green;
 .nav {}
 
   .nav__list {
+    display: flex;
+    justify-content: center;
     list-style: none;
-    padding: 0;
-    margin: $spacing-unit 0 0 $spacing-unit * 2;
     text-decoration: none;
-
-    @include respond-to($mid) {
-      margin: $spacing-unit 0 0 $spacing-unit * 3;
-    }
+    padding: 0;
   }
     .nav__list-item {
+      margin: 0 $spacing-unit;
       padding-top: $spacing-unit / 2;
       padding-bottom: $spacing-unit / 2;
-
-      &:first-child {
-        padding-top: 0;
-      }
 
     }
 
@@ -100,7 +92,7 @@ $link-hover-color: $green;
             right: 0;
             bottom: -3px;
             left: 0;
-            height: 1px;
+            height: 2px;
             background-color: $link-hover-color;
           }
         }

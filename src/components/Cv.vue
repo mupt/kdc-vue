@@ -1,7 +1,7 @@
 <template>
   <div class="cv">
     <section class="cv__header" itemscope itemtype="http://schema.org/Person">
-      <router-link to="/" style="color: white;">
+      <router-link to="/">
         <h1 class="cv__title" itemprop="name"> dw </h1>
       </router-link>
     </section>
@@ -136,7 +136,7 @@ p {
 
 /* CV */
 .cv {
-  color: #FFFFFF;
+  color: #000000;
   font-family: Sans-Serif;
 }
   .cv__title {

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="layout">
     <div class="hero-container">
       <img class="hero-container__img" src="../assets/jarod.jpg">
     </div>
@@ -27,7 +27,8 @@ export default {
 }
 
 .hero-container__img {
-  width: 20%;
+  width: 25%;
+  min-width: 250px;
 }
 
 .nav-container {

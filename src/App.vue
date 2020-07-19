@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="app-layout" id="app">
     <script type="application/ld+json">
     {
       "@context": "http://schema.org",
@@ -36,8 +36,13 @@ $green: #99d4b8;
 /* Site Defaults */
 $site-background: $black;
 
-body {
-  background-color: $site-background;
-  margin: 0;
+body, html {
+  height: 100%;
+  display: grid;
 }
+
+.app-layout {
+  margin: auto;
+}
+
 </style>

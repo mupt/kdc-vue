@@ -45,7 +45,7 @@ $site-background: $black;
 
 /* Font */
 $font-color: $black;
-$font-family: 'Quicksand', sans-serif;
+$font-family: 'Roboto Condensed', sans-serif;
 $font-size: 1.2rem;
 
 /* Links */

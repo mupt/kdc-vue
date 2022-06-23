@@ -1,7 +1,9 @@
 <template>
   <div class="layout">
     <div class="hero-container">
-      <img class="hero-container__img" src="../assets/jarod.jpg">
+      <a href="https://contrado.com/stores/dwshop">
+        <img class="hero-container__img" src="../assets/jarod.jpg">
+      </a>
     </div>
     <LinkList/>
   </div>
